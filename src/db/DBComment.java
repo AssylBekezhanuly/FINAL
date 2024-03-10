@@ -18,9 +18,15 @@ public class DBComment {
         try {
             Class.forName("org.postgresql.Driver");
             connection = DriverManager.getConnection(
+<<<<<<< HEAD
                     "jdbc:postgresql://localhost:5432/TO2024G1?currentSchema=final",
                     "postgres",
                     "postgres"
+=======
+                    "jdbc:postgresql://localhost:5432/postgres?currentSchema=final",
+                    "postgres",
+                    "Assyl#1985"
+>>>>>>> 0e5b352 (Initial commit)
             );
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException(e);

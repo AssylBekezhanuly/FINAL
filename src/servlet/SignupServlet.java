@@ -30,6 +30,10 @@ public class SignupServlet extends HttpServlet {
         String result = DBManager.createUser(user, rePassword);
         HttpSession session = req.getSession();
         session.setAttribute("result", result);
+<<<<<<< HEAD
         resp.sendRedirect("/signup");
+=======
+        resp.sendRedirect("/auth");
+>>>>>>> 0e5b352 (Initial commit)
     }
 }

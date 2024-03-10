@@ -1,4 +1,5 @@
 <%@ page import="model.News" %>
+<<<<<<< HEAD
 <%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: AMIRZH
@@ -6,6 +7,9 @@
   Time: 23:43
   To change this template use File | Settings | File Templates.
 --%>
+=======
+<%@ page import="java.util.List" %>
+>>>>>>> 0e5b352 (Initial commit)
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <%@include file="header.jsp"%>
